@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import { User } from "@/utils/types";
+import React from 'react';
+import Link from 'next/link';
+import { User } from '@/utils/types';
 
 type Props = {
   data: User;

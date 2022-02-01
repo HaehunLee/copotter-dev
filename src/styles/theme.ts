@@ -1,11 +1,11 @@
-import { CustomTheme } from "styled-components";
+import { CustomTheme } from 'styled-components';
 
 export const theme: CustomTheme = {
   default: {
-    textColor: "#242424",
+    textColor: '#242424',
   },
   dark: {
-    textColor: "#ffffff",
+    textColor: '#ffffff',
   },
 };
 
@@ -14,7 +14,7 @@ const customMediaQuery = (maxWidth: number): string =>
 
 export const media = {
   custom: customMediaQuery,
-  pc: "@media (max-width: 1440px)",
-  tablet: "@media (max-width: 768px)",
-  mobile: "@media (max-width: 576px)",
+  pc: '@media (max-width: 1440px)',
+  tablet: '@media (max-width: 768px)',
+  mobile: '@media (max-width: 576px)',
 };

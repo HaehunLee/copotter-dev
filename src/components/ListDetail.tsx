@@ -1,5 +1,5 @@
-import { User } from "@/utils/types";
-import * as React from "react";
+import { User } from '@/utils/types';
+import * as React from 'react';
 
 type ListDetailProps = {
   item: User;

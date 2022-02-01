@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import { media } from "./theme";
+import { createGlobalStyle } from 'styled-components';
+import { media } from './theme';
 
 const GlobalStyle = createGlobalStyle`
     :focus {

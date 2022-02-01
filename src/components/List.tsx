@@ -1,6 +1,6 @@
-import { User } from "@/utils/types";
-import * as React from "react";
-import ListItem from "./ListItem";
+import { User } from '@/utils/types';
+import * as React from 'react';
+import ListItem from './ListItem';
 
 type Props = {
   items: User[];

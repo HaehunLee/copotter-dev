@@ -1,7 +1,7 @@
-import Layout from "@/components/Layout";
-import { testState } from "@/recoil/board/atoms";
-import Link from "next/link";
-import { useRecoilState } from "recoil";
+import Layout from '@/components/Layout';
+import { testState } from '@/recoil/board/atoms';
+import Link from 'next/link';
+import { useRecoilState } from 'recoil';
 
 const IndexPage = () => {
   const [test, setTest] = useRecoilState(testState);
@@ -16,7 +16,7 @@ const IndexPage = () => {
       </p>
       <button
         onClick={() => {
-          setTest("변경값");
+          setTest('변경값');
         }}
       >
         테스트 값 변경
